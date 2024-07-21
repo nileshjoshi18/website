@@ -1,0 +1,133 @@
+.checkout-header {
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:#222f3d;
+    display: flex;
+    justify-content: center;
+    color: #febd68;
+    top: 0;
+    left: 0;
+    right: 0;   
+  }
+.order-container{
+    margin-bottom: 20px;
+}
+.header-content {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+  }
+.amazon-logo {
+    width: 100px;
+    margin-top: 12px;
+    text-align: left;
+  }  
+.checkout-header-left-section {
+    width: 150px;
+    text-align: left;
+  }
+@media (max-width: 575px) {
+    .checkout-header-left-section {
+      width: auto;
+    }
+    .amazon-logo {
+      display: none;
+    }
+    .amazon-mobile-logo {
+      display: inline-block;
+      height: 35px;
+      margin-top: 5px;
+    }
+  }
+.checkout-header-middle-section {
+    flex: 1;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Roboto, Arial;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+.return-to-home-link {
+    color: rgb(0, 113, 133);
+    font-size: 23px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+@media (max-width: 1000px) {
+    .checkout-header-middle-section {
+      font-size: 20px;
+      margin-right: 60px;
+    }
+    .return-to-home-link {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 575px) {
+    .checkout-header-middle-section {
+      margin-right: 5px;
+    }
+  }
+.order-header{
+  height: 30px;
+  width: 700px;
+  background-color: #f0f2f2;
+  display: flex;
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  justify-content: space-evenly;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  }
+.order-label{
+  font-weight: bold;
+  font-size: 16px;
+}
+.product-image {
+  max-width: 100%;
+  max-height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.order-section-grid{
+  width: 750px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+  column-gap: 25px;
+}
+.order-details-right-section{
+  border-left: 10px;
+}
+.product-name {
+  margin-top: 10px;
+  font-weight: bold;  
+}
+.product-price {
+  color: rgb(177, 39, 4);
+  font-weight: 700;
+}
+.product-quantity .link-primary {
+  margin-left: 3px;
+}
+.product-quantity {
+  font-family: Roboto, Arial;
+  font-size: 15px;
+}
+.order-address{
+  font-family: Roboto, Arial;
+  font-size: 15px;
+}
+.update-quantity-link{
+  font-family: Roboto, Arial;
+  font-size: 15px;
+}

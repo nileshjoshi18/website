@@ -1,0 +1,532 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 40px;
+    width: 90px;
+    background-color: #0F1111;
+}
+.logo{
+    background-image: url("amazon-logo.png");
+    height: 28px;
+    width: 100%;
+    background-size:cover;
+    background-color: #0F1111;
+    border: none;
+}
+.border{
+    border: solid transparent 1.5px;
+}
+.border:hover{
+    border: solid white 1.5px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    background-color: #0F1111;
+}
+.adress{
+    color: white;
+    width: 64px;
+    background-color: #0F1111;
+}
+#india{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 3px;
+    background-color: #0F1111;
+}
+#deliver{
+    font-size: 12px;
+    color: #cccccc;
+    position: relative;
+    left: 15px;
+    background-color: #0F1111;
+}
+.searchbar{
+    display: flex;
+    background-color: yellow;
+    width: 510px;
+    height: 40px;
+    border-radius: 5px;
+}
+.selectbar{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #F3F3F3;
+    width: 52px;
+    border-color: transparent;
+}
+.inputbar{
+    width: 400px;
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-color: transparent;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    color:#0F1111;
+    font-size: 20px;
+    justify-content: center;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#list{
+    font-size: 15px;
+    margin-right: 5px;
+}
+#hello{
+    font-size: 12px;
+}
+.caretdown{
+    display: flex;
+}
+#backs{
+    font-size: 12px;
+}
+#order{
+    font-size: 14px;
+}
+#number{
+    font-size: 15px;
+    color: white;
+}
+.cart i{
+    font-size: 25px;
+}
+.cart{
+    display: flex;
+    align-items: flex-end;
+}
+.secnavbar{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    height: 39px;
+    align-items: center;
+}
+#text{
+    font-size: 17px;
+}
+.all i{
+    font-size: 19px;
+}
+.all{
+    display: flex;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.items{
+    display: flex;
+    font-size: 15px;
+}
+.feature{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+.poster1{
+    width: 306px;
+    height: 360px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    position: relative;
+    bottom: 330px;
+    background-color: white;
+    left: 30px;
+}
+.images{
+    height: 140px;
+    width: 45.38px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.secimages{
+    display: flex;
+}
+.secposter1{
+    font-size: 21px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.poster1img{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.link1{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.poster1{
+    width: 306px;
+    height: 360px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: white;
+    position: static;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.poster2{
+    width: 306px;
+    height: 395px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.secposter2{
+    font-size: 21px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.poster2img{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.secimages1{
+    display: flex;
+}
+.images1{
+    height: 175px;
+    width: 250px;
+    display: flex;
+}
+.link2{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.images11{
+    height: 162px;
+    width: 95px;
+    background-image: url("nivea.jpg");
+    background-size: cover;
+    padding: 6px;
+}
+.images12{
+    height: 162px;
+    width: 128px;
+    background-image: url("classmate.jpg");
+    background-size: cover;
+    padding: 6px;
+}
+.border1{
+    display: flex;
+}
+.images2{
+    height: 162px;
+    width: 250px;
+    display: flex;
+}
+.images21{
+    height: 100px;
+    width: 130px;
+    background-image: url("shaving.jpg");
+    background-size: cover;
+    padding: 6px;
+}
+.images22{
+    height: 145px;
+    width: 80px;
+    background-image: url("calculator.jpg");
+    background-size: cover;
+    padding: 6px;
+}
+.posters{
+    display: flex;
+    position: relative;
+    bottom: 300px;
+    background-color: transparent;
+    justify-content: space-evenly;
+}
+.poster3{
+    width: 306px;
+    height: 360px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+.link3{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.offer{
+    font-size: 21px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.imgear{
+    height: 310px;
+    width: 280px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.earphones{
+    height: 270px;
+    width: 265px;
+    background-image: url("earphones.jpg");
+    background-size: cover;
+}
+.poster4{
+    width: 306px;
+    height: 360px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+.mouse{
+    height: 270px;
+    width: 265px;
+    background-image: url("mouse.jpg");
+    background-size: cover;
+}
+.footer1{
+    background-color: #232f3e;
+}
+.footerinfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.information{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+ul{
+    list-style-type: none;
+    font-size: 16px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    padding-left: 0px;
+}
+.title1{
+    color: white;
+    font-size: 16px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+li{
+    margin-bottom: 10px;
+}
+.amazonlogo{
+    height: 77px;
+    width: 70px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo1{
+    height: 20px;
+    width: auto;
+    background-image: url("amazon-logo.png");    
+    background-size: cover;
+}
+.secamazon{
+    text-align: center;
+}
+.lettering{
+    display: flex;
+    width: 800px;  
+}
+.rights{
+    color: white;
+    width: 200px;
+    font-size: 13px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+.js-cart-quantity{
+    font-size: 18px;
+    padding-left: 3px;
+    color: #febd68;
+    font-weight: bold;
+    text-decoration: none;
+}
+.number{
+    text-decoration: none;
+}
+.cartborder{
+    cursor: pointer;
+    text-decoration: none;
+}
+.checkout{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.main {
+    position: relative;
+    bottom: 350px;
+    margin-top: 60px;
+  }
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+  }
+  @media (max-width: 2000px) {
+    .products-grid {
+      grid-template-columns: repeat(7, 1fr);
+    }
+  }
+  
+  /* This @media means when the screen width is 1600px or
+     less, we will divide the grid into 6 columns. */
+  @media (max-width: 1600px) {
+    .products-grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .products-grid {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .products-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .products-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .products-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .products-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .product-container {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+  
+    border-right: 1px solid rgb(231, 231, 231);
+    border-bottom: 1px solid rgb(231, 231, 231);
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 180px;
+    margin-bottom: 20px;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .product-name {
+    height: 40px;
+    margin-bottom: 5px;
+  }
+  
+  .product-rating-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .product-rating-stars {
+    width: 100px;
+    margin-right: 6px;
+  }
+  
+  .product-rating-count {
+    color: rgb(1, 124, 182);
+    cursor: pointer;
+    margin-top: 3px;
+  }
+  
+  .product-price {
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .product-quantity-container {
+    margin-bottom: 17px;
+  }
+  
+  .product-spacer {
+    flex: 1;
+  }
+  
+  .added-to-cart {
+    color: rgb(6, 125, 98);
+    font-size: 16px;
+  
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  
+    /* At first, the "Added to cart" message will
+       be invisible. Use JavaScript to change the
+       opacity and make it visible. */
+    opacity: 0;
+  }
+  
+  .added-to-cart img {
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .add-to-cart-button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 50px;
+  }
